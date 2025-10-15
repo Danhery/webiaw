@@ -67,8 +67,33 @@ header {
     font-family: 'Bonello';
 }
 
+@font-face {
+    font-family: 'estilo2';
+    src: url(/assets/styles/FortalesiaPlain_PERSONAL_USE_ONLY.otf);
+}
+
+.font-estilo2 {
+    font-family: 'estilo2';
+}
+
 
 footer{
  background: linear-gradient(to right, #9900ff7e, #bd3bab); 
 }
 
+ .card-shadow-hover {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+    
+ .card-shadow-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+        }
+
+    
+.banner-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+}
